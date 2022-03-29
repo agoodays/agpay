@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AGooday.AgPay.Payment.Api", "src\AGooday.AgPay.Payment.Api\AGooday.AgPay.Payment.Api.csproj", "{1221AD58-67B3-46F4-AD03-A28E9F159F82}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BBF27B28-9E20-44A3-976E-714EAA4F3F9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{D9A9335E-1AF7-43EC-9E02-7C6CAE630DBB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AGooday.AgPay.Application", "src\AGooday.AgPay.Application\AGooday.AgPay.Application.csproj", "{5330759D-A19D-42B4-895F-28D4B8743DB8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AGooday.AgPay.Application.Contracts", "src\AGooday.AgPay.Application.Contracts\AGooday.AgPay.Application.Contracts.csproj", "{A50EB985-F288-40B7-9017-774A874CA35A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AGooday.AgPay.Domain", "src\AGooday.AgPay.Domain\AGooday.AgPay.Domain.csproj", "{C340C805-55D6-443E-82BC-C2AB02C4F132}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AGooday.AgPay.Domain.Shared", "src\AGooday.AgPay.Domain.Shared\AGooday.AgPay.Domain.Shared.csproj", "{8DD5DCAA-372C-471A-864A-4ED144132C6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AGooday.AgPay.QRCode.Api", "src\AGooday.AgPay.QRCode.Api\AGooday.AgPay.QRCode.Api.csproj", "{96261474-4A77-41F2-8401-A1A716A16E52}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1221AD58-67B3-46F4-AD03-A28E9F159F82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1221AD58-67B3-46F4-AD03-A28E9F159F82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1221AD58-67B3-46F4-AD03-A28E9F159F82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1221AD58-67B3-46F4-AD03-A28E9F159F82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5330759D-A19D-42B4-895F-28D4B8743DB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5330759D-A19D-42B4-895F-28D4B8743DB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5330759D-A19D-42B4-895F-28D4B8743DB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5330759D-A19D-42B4-895F-28D4B8743DB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A50EB985-F288-40B7-9017-774A874CA35A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A50EB985-F288-40B7-9017-774A874CA35A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A50EB985-F288-40B7-9017-774A874CA35A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A50EB985-F288-40B7-9017-774A874CA35A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C340C805-55D6-443E-82BC-C2AB02C4F132}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C340C805-55D6-443E-82BC-C2AB02C4F132}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C340C805-55D6-443E-82BC-C2AB02C4F132}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C340C805-55D6-443E-82BC-C2AB02C4F132}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DD5DCAA-372C-471A-864A-4ED144132C6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DD5DCAA-372C-471A-864A-4ED144132C6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DD5DCAA-372C-471A-864A-4ED144132C6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DD5DCAA-372C-471A-864A-4ED144132C6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96261474-4A77-41F2-8401-A1A716A16E52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96261474-4A77-41F2-8401-A1A716A16E52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96261474-4A77-41F2-8401-A1A716A16E52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96261474-4A77-41F2-8401-A1A716A16E52}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1221AD58-67B3-46F4-AD03-A28E9F159F82} = {BBF27B28-9E20-44A3-976E-714EAA4F3F9A}
+		{5330759D-A19D-42B4-895F-28D4B8743DB8} = {BBF27B28-9E20-44A3-976E-714EAA4F3F9A}
+		{A50EB985-F288-40B7-9017-774A874CA35A} = {BBF27B28-9E20-44A3-976E-714EAA4F3F9A}
+		{C340C805-55D6-443E-82BC-C2AB02C4F132} = {BBF27B28-9E20-44A3-976E-714EAA4F3F9A}
+		{8DD5DCAA-372C-471A-864A-4ED144132C6F} = {BBF27B28-9E20-44A3-976E-714EAA4F3F9A}
+		{96261474-4A77-41F2-8401-A1A716A16E52} = {BBF27B28-9E20-44A3-976E-714EAA4F3F9A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0AF866FC-5053-4B5D-9E9F-D6D998D555FD}
+	EndGlobalSection
+EndGlobal
